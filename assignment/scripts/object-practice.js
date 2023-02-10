@@ -46,6 +46,8 @@ console.log(fullName); // Output: Cory Anderson
   - Console.log your last favorite food 
 */
 
+console.log(me.favThreeFoods[0]); // Output: First favorite food: Plantains
+console.log(me.favThreeFoods[me.favThreeFoods.length - 1]); // Output: Last favorite food Burritos
 
 
 /* 4. Change a property of an existing object.
