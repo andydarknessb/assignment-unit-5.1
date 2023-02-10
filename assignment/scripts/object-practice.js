@@ -17,7 +17,8 @@ const me = {
   shoeCount: 4, 
   favThreeFoods: ["Plantains", "Steak", "Burritos"]
   // TODO - add properties here
-};
+  }
+
 console.log('A little about me:', me);
 console.log(me.firstName); // Output: Cory
 console.log(me.lastName); // Output: Anderson
@@ -25,7 +26,8 @@ console.log(me.age); // Output: 37
 console.log(me.job); // Output: Investigator
 console.log(me.hasSiblings); //Output: true
 console.log(me.shoeCount) // Output: 4
-console.log(me.favThreeFoods) // Output: Plantains, Steak, Burritos
+console.log(me.favThreeFoods); // Output: Plantains, Steak, Burritos
+
 
 
 /* 2. Accessing object properties.
@@ -35,6 +37,8 @@ console.log(me.favThreeFoods) // Output: Plantains, Steak, Burritos
   - Console.log fullName
 */
 
+let fullName = me.firstName + " " + me.lastName;
+console.log(fullName); // Output: Cory Anderson
 
 
 /* 3. Nested arrays
